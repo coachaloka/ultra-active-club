@@ -1,4 +1,4 @@
-.headernav{
+ .headernav{
     height: 80px;
     background-color: lightskyblue;
     display: flex;
@@ -17,4 +17,4 @@
 }
 .headernav a:hover{
     color: #ff4500;
-}
+} 
