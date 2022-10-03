@@ -22,7 +22,7 @@ const Cart = (props) => {
             <h3>Course Details</h3>
             <p>Course Time: {total}</p>
             <p>Break Time</p>
-            <p>Course Completed</p>
+            <button className='complete-btn'>Course Completed</button>
 
         </div>
     );

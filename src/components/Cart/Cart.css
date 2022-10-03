@@ -3,3 +3,10 @@
     top: 0;
     padding: 30px 20px;
 }
+.complete-btn{
+    width: 100%;
+    background: coral;
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    bottom: 200px;
+}

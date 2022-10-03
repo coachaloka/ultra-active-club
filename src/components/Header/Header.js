@@ -6,7 +6,7 @@ const Header = () => {
      
         <nav className='headernav'>
                 <div>
-                    <h2>English Learning Center</h2>
+                    <h1>English Learning Center</h1>
                 </div>
             
             <div>
