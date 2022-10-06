@@ -1,9 +1,9 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './Break.css';
-import { useState } from 'react';
+
 
 const Break = () => {
-    const [breaktime, Breaktime] = useState(0);
+    const [ breaktime, setBreakTime ] = useState(0);
 
     return (
         <div>
@@ -15,8 +15,10 @@ const Break = () => {
                 <button onClick={()=> setBreakTime(6)} className="break-times">6m</button>
                 <button onClick={()=> setBreakTime(7)} className="break-times">7m</button>
                 <button onClick={()=> setBreakTime(8)} className="break-times">8m</button>
-
-           </div>
+            </div>
+            <div>
+                <h4 className='break-times'>Break Time: (breaktime)m</h4>
+            </div>
             
         </div>
     );

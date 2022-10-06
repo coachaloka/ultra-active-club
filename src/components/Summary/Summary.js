@@ -1,14 +1,11 @@
 import React from 'react';
+import Break from '../Break/Break';
+// import {ToastContainer,toast} from 'react-toastify';
 import './Summary.css';
 
+
 const Summary = (props) => {
-    const{ cart } = props
-
-     let total = 0;
-     for(const product of cart){
-        total = total + product.time;
-     }
-
+   
     return (
         <div className='summary'>
             <div className='title'>
@@ -35,16 +32,21 @@ const Summary = (props) => {
             
            <div>
                 <h3>Course Details</h3>
-                <h4 className='course-details'>Course Time: {total}</h4>
+                <h4 className='course-details'>Course Time: {props.time}</h4>
            </div>
-            
-           
-        
-            <button className='completed-btn'>Course Completed</button>
-            
-
-           
-
+           <Break />
+           {/* <div className='completed-btn'>
+            <button onClick={notify} className="completed">Completed!</button>
+               <ToastContainer 
+               position="top-center"
+               autoClose={5000}
+               hideProgressBar={false}
+               newestOnTop={false}
+               closeOnClick
+               rtl={false}
+               pauseOnFocusLoss draggable pauseOnHover
+               />
+           </div> */}
         </div>
     );
 };
