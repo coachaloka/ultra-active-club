@@ -1,11 +1,12 @@
 import React from 'react';
 import Break from '../Break/Break';
-// import {ToastContainer,toast} from 'react-toastify';
+import {ToastContainer,toast} from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 import './Summary.css';
 
 
 const Summary = (props) => {
-   
+    const notify = () => toast("Weldone! You have Completed Project!");
     return (
         <div className='summary'>
             <div className='title'>
@@ -35,7 +36,7 @@ const Summary = (props) => {
                 <h4 className='course-details'>Course Time: {props.time}</h4>
            </div>
            <Break />
-           {/* <div className='completed-btn'>
+            <div className='completed-btn'>
             <button onClick={notify} className="completed">Completed!</button>
                <ToastContainer 
                position="top-center"
@@ -44,9 +45,10 @@ const Summary = (props) => {
                newestOnTop={false}
                closeOnClick
                rtl={false}
-               pauseOnFocusLoss draggable pauseOnHover
+               pauseOnFocusLoss 
+               draggable pauseOnHover
                />
-           </div> */}
+           </div> 
         </div>
     );
 };

@@ -17,7 +17,7 @@ const Break = () => {
                 <button onClick={()=>setBreakTime(10)} className="break-times">10m</button>
             </div>
             <div>
-                <h4 className="break-times">Break Time: {breakTime} m </h4>
+                <h4 className="breaking">Break Time: {breakTime} m </h4>
             </div>
         </div>
         </div>
