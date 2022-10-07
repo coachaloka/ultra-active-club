@@ -9,7 +9,7 @@ const Blog = () => {
                 <h3>How does React work?</h3>
             </div>
             <div>
-                <p><strong>Answer:</strong>
+                <p><strong>Answer: </strong>
                     While building client-side apps, a team of Facebook developers
                     realized that the DOM is slow (The Document Object Model (DOM) is an
                     application programming interface (API) for HTML and XML documents. It
@@ -28,8 +28,8 @@ const Blog = () => {
                 </p>
             </div>
     <div className="blog">
-        <h3>Difference Between State and Props?</h3>
-        <p><strong>Answer:</strong>
+        <h3>What is the difference Between State and Props?</h3>
+        <p><strong>Answer: </strong>
           React is an opensource JavaScript library that offers a visual
           overview of the JavaScript architecture for conventional MVC. React
           promises programmers a model in which substrates cannot directly
@@ -48,8 +48,8 @@ const Blog = () => {
         </p>
     </div>
       <div className="blog">
-        <h3>Usage of UseEffect. </h3>
-        <p><strong>Answer:</strong>
+        <h3>Which purpose we can Use of UseEffect. </h3>
+        <p><strong>Answer:  </strong>
           <div className="blog">            
               <p>1. Running once on mount: fetch API data</p>
               <p>2. Running on state change: validating input field</p>

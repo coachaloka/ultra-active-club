@@ -16,7 +16,8 @@
 }
 .course-details{
     background-color: lightskyblue;
-    border-radius: 10px;
+    border-radius:
+    10px;
     padding: 10px;
     margin: 20px;
 }
@@ -25,14 +26,16 @@
     border-color: cornflowerblue;
     padding: 10px;
     border-radius: 5px;
-    width: 300px;
+    width: 400px;
     font-size: 20px;
 }
 .completed-btn{
     text-align: center;
-    background-color: brown;
+    background-color: lightgreen;
     padding: 10px;
     border-radius: 10px;
+    width: 300px;
     border: none;
     font-size: 20px;
 }
+
